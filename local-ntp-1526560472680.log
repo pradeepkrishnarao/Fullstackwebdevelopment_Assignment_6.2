@@ -1,0 +1,35 @@
+var recipeName = "Creamy squash linguine"; //string
+var preparationTime=45; //integer
+var recipeBy = "Jimmy Cutter"; //string
+var isVegetarian = true; //boolean
+var calories = 223.7; //decimal
+console.log("Recipe details:"); 
+console.log("-------------");
+console.log("Recipe Name:"+recipeName);
+console.log("Preparation Time:"+preparationTime);
+console.log("Recipe By:"+recipeBy);
+console.log("is Vegetarian Dish:"+isVegetarian);
+console.log("Calories:"+calories);
+preparationTime=60; //preparationTime is initialized to a new integer value
+recipeBy="Jimmy Cutter George" //recipeBy is initialized to a new string value
+console.log("Recipe details after update:"); //label
+console.log("--------------");
+console.log("Recipe Name:"+recipeName); //Using string concatenation label and value is printed together
+console.log("Preparation Time:"+preparationTime);
+console.log("RecipeBy:"+recipeBy);
+console.log("is Vegetarian Dish:"+isVegetarian);
+console.log("Calories:"+calories);
+VM29:6 Recipe details:
+VM29:7 -------------
+VM29:8 Recipe Name:Creamy squash linguine
+VM29:9 Preparation Time:45
+VM29:10 Recipe By:Jimmy Cutter
+VM29:11 is Vegetarian Dish:true
+VM29:12 Calories:223.7
+VM29:15 Recipe details after update:
+VM29:16 --------------
+VM29:17 Recipe Name:Creamy squash linguine
+VM29:18 Preparation Time:60
+VM29:19 RecipeBy:Jimmy Cutter George
+VM29:20 is Vegetarian Dish:true
+VM29:21 Calories:223.7
